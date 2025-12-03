@@ -1,0 +1,14 @@
+1. Append
+to write append directly, you need to check two condtion 
+1. if this.list is null then simply create a new node and place the value to the new node, 
+2. if this.list is not null, add the value at end by while loop, and also add the next node to the null
+2. Prepend
+For the class method prepend:
+if listHead is null then add a newnode and if it is not, 
+then creat new node at the beginning and point all the other nodes to the next. 
+point the nextNode to the headList and then update the lists head property to the new node
+
+3. Size
+add 1 on each iteration to const count on each iteration till the nextnode is null 
+
+
