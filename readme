@@ -11,4 +11,18 @@ point the nextNode to the headList and then update the lists head property to th
 3. Size
 add 1 on each iteration to const count on each iteration till the nextnode is null 
 
+4. FindIndex 
+if this.listHead is null then return null 
+if index found then return that node
+if index is higher than the node return "your index is bigger than the list"
 
+5. Pop 
+make two const one attached with the instance method and second as null, run a while loop with a condition if current.nextNode is not null then make both equal and give current the nextNode, after that make previous.nextNode null
+6. contains
+method should return true if value is found in the linked list
+7. find 
+run while loop if tmp is not null
+add 1 at every loop to count
+if tmp.value === value return count
+and in the next step put tmp to the next node 
+and return false overall
